@@ -4,7 +4,7 @@ services:
   tracardi-gui:
     image: tracardi/tracardi-gui:0.8.0-dev
     environment:
-      API_URL: http://<laptop-ip>:8686
+      API_URL: http://72.14.186.84:8686
     ports:
       - 8787:80
 
